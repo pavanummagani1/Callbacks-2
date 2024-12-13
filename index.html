@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>Convert Below Named functions to first class and anonymous functions</h1></center>
+    <pre>
+    function sayHello() { 
+        console.log(“Hello”); 
+        }
+
+        <b>First Class Function</b>
+
+        var str = function sayHello(){
+            console.log(“Hello”);
+        } 
+        
+        <b>anonymous Function</b>
+
+        var str = function (){
+            console.log(“Hello”);
+        }
+    </pre>
+        =================================================================== 
+        <pre>
+        function printNumber() { 
+        console.log(5); 
+        }
+
+        <b>First Class Function</b>
+
+        var print =  function printNumber() { 
+        console.log(5); 
+        }
+        
+        
+        <b>anonymous Function</b>
+
+        var print = function (){
+            console.log(5);
+        } 
+    </pre>
+        ====================================
+        <pre>
+        function addAndPrint() { 
+        console.log(2 + 3); 
+        }
+
+       <b>First Class Function</b>
+
+        var addPrint = function addAndPrint() { 
+        console.log(2 + 3); 
+        }
+        
+        <b>anonymous Function</b>
+
+        var X = function (){
+            console.log(2+3);
+        } 
+    </pre>
+        ====================================
+        <pre>
+        function add(a, b) {
+             return a + b; 
+        }
+        
+        <b>First Class Function</b>
+
+        var adds = function add(a, b) {
+             return a + b; 
+        }
+        
+        
+        <b>anonymous Function</b>
+
+        var add = function(){
+            return a+b;
+        }
+    </pre> 
+        ====================================
+        <pre>
+        function subtract(a, b) { 
+        return a - b; 
+        }
+
+       <b>First Class Function</b>
+
+        var  sub =   function subtract(a, b) { 
+        return a - b; 
+        }
+        
+        
+        <b>anonymous Function</b>
+
+        var subtract = function(a,b){
+            return a-b;
+        }
+    </pre> 
+        =====================================
+        <pre>
+        function double(x) { 
+        return x + x; 
+        }
+
+        <b>First Class Function</b>
+
+        var doub = function double(x) { 
+        return x + x; 
+        }
+         
+        
+        <b>anonymous Function</b>
+
+        var double = function(){
+            return x+x;
+        } 
+    </pre>
+        =====================================
+        <pre>
+        function square(x) { 
+        return x * x; 
+        }
+
+        <b>First Class Function</b>
+
+        var sqr = function square(x) { 
+        return x * x; 
+        } 
+        
+        <b>anonymous Function</b>
+
+        var square = function(x){
+            return x*x;
+        }
+    </pre>
+        ====================================
+        <pre>
+        function isPositive(x) { 
+        return x > 0;
+        }
+
+        <b>First Class Function</b>
+
+        var isPstv =  function isPositive(x) { 
+        return x > 0;
+        }
+        
+        
+        <b>anonymous Function</b>
+
+        var isPositive = function(x){
+            return x>0;
+        } 
+    </pre>
+        =====================================
+        <pre>
+        function absolute(x) { 
+        if (x < 0) { 
+        return 0 - x; 
+        }
+         return x; 
+        }
+        
+        <b>First Class Function</b>
+
+        var abslute = function absolute(x) { 
+        if (x < 0) { 
+        return 0 - x; 
+        }
+         return x; 
+        }
+        
+        <b>anonymous Function</b>
+
+        var absolute = function(x){
+            if(x<0){
+        return 0-x;
+        }
+            return x;
+        } 
+    </pre>
+        =====================================
+        <pre>
+        function max(a, b) { 
+        if (a > b) { 
+        return a;
+        } 
+        return b;
+         }
+        
+         <b>First Class Function</b>
+
+        var maxx =  function max(a, b) { 
+        if (a > b) { 
+        return a;
+        } 
+        return b;
+         }
+        
+        
+        <b>anonymous Function</b>
+        
+        var max = function(a,b){
+            if(a>b){
+                return a;
+        }
+        return b;
+        }
+        </pre>
+        
+</body>
+</html>
